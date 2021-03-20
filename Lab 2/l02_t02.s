@@ -22,8 +22,8 @@ ADD	R2, R0, R1
 LDR	R3, =Total
 STR	R2, [R3]
 SUB	R2, R0, R1
-LDR	R3, =Diff // Changed from =difff to =diff
-STR	R2, [R3] // Changed from #3 to [R3]
+LDR	R3, =Diff  // Changed from =difff to =diff
+STR	R2, [R3]   // Changed from #3 to [R3]
 
 // End program
 _stop:
